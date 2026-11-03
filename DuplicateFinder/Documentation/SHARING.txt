@@ -1,0 +1,25 @@
+Duplicate Finder 0.5.0
+
+Requires macOS 14 or later. Includes Apple Silicon and Intel versions.
+
+The app is self-contained. No Xcode, Homebrew, or separate dependencies are needed. Unzip the download and drag Duplicate Finder.app to Applications.
+
+1. Open Duplicate Finder.app and choose folders to compare.
+2. Select a result to compare its copies and full paths.
+3. Mark the copies you want to remove, review the exact list, and confirm Move to Trash.
+
+Selection normally applies to visible results. Selecting across the entire scan is a separate command. Use Unlock to release a keeper lock. Large selections are reviewed in batches of up to 1,000 files.
+
+External, network, and read-only drives are scan-only. Removal is available only on writable internal local drives.
+
+The app keeps at least one copy in each group and checks file contents again before moving anything. Identical files may still be needed in different projects, so review their locations. The app never empties Trash. Restore files using Finder's Trash.
+
+Changed or unavailable groups are marked Rescan required and cannot be selected again until rescanned.
+
+Navigate > Operation History shows what moved or failed in pages, with unresolved records first. Large logs are compacted while preserving every unresolved operation, and three historical archives are kept. If an operation is interrupted, inspect the original folder and Trash, then rescan; the app never retries automatically.
+
+Saved scans are kept for up to 30 days, with at most 50 entries. Clear Saved Scans in Settings removes their local databases, not your original files. The removal log remains separately for recovery.
+
+Everything is processed locally. There are no accounts or telemetry.
+
+This build was tested on Apple Silicon with macOS 27.2. Other supported macOS versions and physical Intel Macs still need trial testing. It is locally signed, without Developer ID notarization.

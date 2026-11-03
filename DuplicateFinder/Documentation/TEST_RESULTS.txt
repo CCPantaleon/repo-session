@@ -1,0 +1,183 @@
+Project references valid: 37 Swift files, 4 targets, shared scheme. Xcode build still required.
+Building for debugging...
+[Pre-planning 1 / 211]
+[Planning deferred tasks]
+[17 / 44] DuplicateFinderCoreTests-product
+[26 / 55] DuplicateFinder-product
+[27 / 77] DuplicateFinderApp
+[28 / 79] DuplicateFinderBenchmark-product
+[30 / 78] DuplicateFinderCoreTests-product
+[37 / 78] DuplicateFinderBenchmark-product
+[40 / 78] DuplicateFinderApp
+[42 / 78] DuplicateFinderBenchmark-product
+[44 / 78] DuplicateFinderApp
+[46 / 78] DuplicateFinderCoreTests-product
+[50 / 78] DuplicateFinderApp
+[52 / 78] DuplicateFinder-product
+[53 / 78] DuplicateFinderBenchmark-product
+[57 / 80] DuplicateFinderApp
+[59 / 80] DuplicateFinderApp
+[62 / 82] DuplicateFinderApp
+[64 / 84] DuplicateFinder-product
+[68 / 84] DuplicateFinder-product
+[68 / 84] DuplicateFinderCoreTests-product
+[70 / 82] DuplicateFinderApp
+[72 / 82] DuplicateFinder-product
+[73 / 83] DuplicateFinder-product
+[75 / 83] DuplicateFinder-product
+[79 / 85] DuplicateFinderAppTests-product
+[81 / 87] DuplicateFinderAppTests-product
+[85 / 89] DuplicateFinderAppTests-product
+[87 / 89] DuplicateFinderAppTests-product
+Build complete! (6.84 sec)
+Test Suite 'All tests' started at 2026-10-31 03:27:20.822.
+Test Suite 'All tests' passed at 2026-10-31 03:27:20.824.
+	 Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.002) seconds
+Test Suite 'All tests' started at 2026-10-31 03:27:21.143.
+Test Suite 'All tests' passed at 2026-10-31 03:27:21.144.
+	 Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.001) seconds
+􀟈  Test run started.
+􀄵  Testing Library Version: 2403
+􀄵  Target Platform: arm64e-apple-macos14.0
+􀟈  Suite Version050Tests started.
+􀟈  Suite RemovalTests started.
+􀟈  Suite InterruptionTests started.
+􀟈  Suite StressTests started.
+􀟈  Suite ScaleTests started.
+􀟈  Suite ReleaseRegressionTests started.
+􀟈  Suite SQLiteIndexTests started.
+􀟈  Suite ScannerTests started.
+􀟈  Test changedKeeperInvalidatesWholeGroupAndBlocksAnotherPlan() started.
+􀟈  Test realScanningPropagatesVolumePolicyThroughPersistenceAndSelection() started.
+􀟈  Suite DomainTests started.
+􀟈  Test unreadableRecoveryEvidencePreventsDestructiveCompaction() started.
+􀟈  Test compactionPreservesAllUnresolvedAndDoesNotResurrectResolvedIntents() started.
+􀟈  Suite BoundaryTests started.
+􀟈  Test smartSelectionRetainsLockedKeeper() started.
+􀟈  Test oversizedCorruptLineDoesNotHideFollowingValidRecord() started.
+􀟈  Test historyPagesBoundUnresolvedAndCompletedRecords() started.
+􀟈  Test failedJournalCannotMoveAnything() started.
+􀟈  Test reviewedMoveUsesAdapterAndDurableAudit() started.
+􀟈  Test changedKeeperPreventsAnyMove() started.
+􀟈  Test fiveThousandFiles() started.
+􀟈  Test largeVideoAndMutationDuringHash() started.
+􀟈  Test persistsAndReopensVerifiedResults() started.
+􀟈  Test batchesNeverAllowSelectingEveryCopy() started.
+􀟈  Test hugeGroupAndSelectionCanBeReviewedInSafeBatches() started.
+􀟈  Test operationHistoryPreservesUncertainIntentsAndSurvivesTruncatedRecord() started.
+􀟈  Test singleSelectionWorksBeyondTwoThousandResultMembers() started.
+􀟈  Test emptyFilesAndExclusionsAndPackages() started.
+􀟈  Test cancelledCoordinatorCanImmediatelyStartAgain() started.
+􀟈  Test scanOnlyCopiesCannotEnterPlans() started.
+􀟈  Test indexesMoreThanPreviousScanLimit() started.
+􀟈  Test scanCleanupDeletesOnlyOwnedUnretainedIndexes() started.
+􀟈  Test exactCopiesFiltersLinksAndOverlap() started.
+􀟈  Test resultsKeepFailuresSkippedAndUnselectedCopies() started.
+􀟈  Test changedOrMissingCandidatesNeverReachTrash() started.
+􀟈  Test hashGoldenAndChangedFile() started.
+􀟈  Test realPermissionDeniedFileIsLeftInPlace() started.
+􀟈  Test cancellationAndMissingRoot() started.
+􀟈  Test cancellingDuringMoveFinishesThatMoveAndSkipsRemainingFiles() started.
+􀟈  Test unavailableRootProducesIssueAndNoFalseResults() started.
+􀟈  Test digestRequiresCanonicalSHA256() started.
+􀟈  Test unverifiedOrChangedFilesAreRejected() started.
+􀟈  Test invalidAndCrossGroupSelectionsAreRejected() started.
+􀟈  Test differingHashesAndSizesAreRejected() started.
+􀟈  Test hardLinkIdentityCannotCountAsAnotherCopy() started.
+􀟈  Test byteEstimatesCannotOverflow() started.
+􀟈  Test decodingCannotBypassDigestValidation() started.
+􀟈  Test differentNamesCanBelongToExactGroup() started.
+􀟈  Test reviewAlwaysRetainsOneCopy() started.
+􀟈  Test unavailableSelectionCannotSuggestRemoval() started.
+􀟈  Test unavailableRemovalLeavesTemporaryFilesUnchanged() started.
+􀟈  Test unavailableVolumesDoNotPretendNoDrivesExist() started.
+􀟈  Test unavailableScannerCannotReportSuccess() started.
+􁁛  Test unreadableRecoveryEvidencePreventsDestructiveCompaction() passed after 0.102 seconds.
+􁁛  Test smartSelectionRetainsLockedKeeper() passed after 0.103 seconds.
+􁁛  Test persistsAndReopensVerifiedResults() passed after 0.103 seconds.
+􁁛  Test batchesNeverAllowSelectingEveryCopy() passed after 0.105 seconds.
+􁁛  Test operationHistoryPreservesUncertainIntentsAndSurvivesTruncatedRecord() passed after 0.105 seconds.
+􁁛  Test scanOnlyCopiesCannotEnterPlans() passed after 0.105 seconds.
+􁁛  Test singleSelectionWorksBeyondTwoThousandResultMembers() passed after 0.105 seconds.
+􁁛  Test scanCleanupDeletesOnlyOwnedUnretainedIndexes() passed after 0.105 seconds.
+􁁛  Test hugeGroupAndSelectionCanBeReviewedInSafeBatches() passed after 0.105 seconds.
+􁁛  Test resultsKeepFailuresSkippedAndUnselectedCopies() passed after 0.105 seconds.
+􁁛  Test hashGoldenAndChangedFile() passed after 0.105 seconds.
+􁁛  Test compactionPreservesAllUnresolvedAndDoesNotResurrectResolvedIntents() passed after 0.105 seconds.
+􁁛  Test cancellationAndMissingRoot() passed after 0.105 seconds.
+􁁛  Test digestRequiresCanonicalSHA256() passed after 0.106 seconds.
+􁁛  Test unverifiedOrChangedFilesAreRejected() passed after 0.081 seconds.
+􁁛  Test invalidAndCrossGroupSelectionsAreRejected() passed after 0.081 seconds.
+􁁛  Test differingHashesAndSizesAreRejected() passed after 0.078 seconds.
+􁁛  Test hardLinkIdentityCannotCountAsAnotherCopy() passed after 0.078 seconds.
+􁁛  Test byteEstimatesCannotOverflow() passed after 0.078 seconds.
+􁁛  Test decodingCannotBypassDigestValidation() passed after 0.078 seconds.
+􁁛  Test differentNamesCanBelongToExactGroup() passed after 0.078 seconds.
+􁁛  Test reviewAlwaysRetainsOneCopy() passed after 0.078 seconds.
+􁁛  Test unavailableSelectionCannotSuggestRemoval() passed after 0.070 seconds.
+􁁛  Test unavailableRemovalLeavesTemporaryFilesUnchanged() passed after 0.070 seconds.
+􁁛  Test unavailableVolumesDoNotPretendNoDrivesExist() passed after 0.056 seconds.
+􁁛  Test unavailableScannerCannotReportSuccess() passed after 0.056 seconds.
+􁁛  Test unavailableRootProducesIssueAndNoFalseResults() passed after 0.106 seconds.
+􁁛  Suite DomainTests passed after 0.107 seconds.
+􁁛  Suite BoundaryTests passed after 0.107 seconds.
+􁁛  Test reviewedMoveUsesAdapterAndDurableAudit() passed after 0.113 seconds.
+􁁛  Test changedKeeperPreventsAnyMove() passed after 0.116 seconds.
+􁁛  Test changedKeeperInvalidatesWholeGroupAndBlocksAnotherPlan() passed after 0.139 seconds.
+􁁛  Test realPermissionDeniedFileIsLeftInPlace() passed after 0.172 seconds.
+􁁛  Test changedOrMissingCandidatesNeverReachTrash() passed after 0.178 seconds.
+􁁛  Test cancellingDuringMoveFinishesThatMoveAndSkipsRemainingFiles() passed after 0.178 seconds.
+􁁛  Suite InterruptionTests passed after 0.179 seconds.
+􁁛  Test failedJournalCannotMoveAnything() passed after 0.191 seconds.
+􁁛  Suite RemovalTests passed after 0.191 seconds.
+􁁛  Test cancelledCoordinatorCanImmediatelyStartAgain() passed after 0.197 seconds.
+􁁛  Suite ReleaseRegressionTests passed after 0.198 seconds.
+􁁛  Test realScanningPropagatesVolumePolicyThroughPersistenceAndSelection() passed after 0.200 seconds.
+􁁛  Test emptyFilesAndExclusionsAndPackages() passed after 0.206 seconds.
+􁁛  Test exactCopiesFiltersLinksAndOverlap() passed after 0.223 seconds.
+􁁛  Suite ScannerTests passed after 0.224 seconds.
+􁁛  Test largeVideoAndMutationDuringHash() passed after 0.263 seconds.
+􁁛  Suite StressTests passed after 0.263 seconds.
+􁁛  Test historyPagesBoundUnresolvedAndCompletedRecords() passed after 0.690 seconds.
+􁁛  Test indexesMoreThanPreviousScanLimit() passed after 3.503 seconds.
+􁁛  Suite SQLiteIndexTests passed after 3.503 seconds.
+PROFILE: 5001 files, scan seconds 13.470380067825317, process peak RSS bytes 249626624
+􁁛  Test fiveThousandFiles() passed after 14.485 seconds.
+􁁛  Suite ScaleTests passed after 14.486 seconds.
+􁁛  Test oversizedCorruptLineDoesNotHideFollowingValidRecord() passed after 17.635 seconds.
+􁁛  Suite Version050Tests passed after 17.635 seconds.
+􁁛  Test run with 43 tests in 10 suites passed after 17.635 seconds.
+􀟈  Test run started.
+􀄵  Testing Library Version: 2403
+􀄵  Target Platform: arm64e-apple-macos14.0
+􀟈  Suite AppModelTests started.
+􀟈  Test changedResultsCannotBeSuggestedOrManuallyMarkedAgain() started.
+􀟈  Test oldConfirmationCannotExecuteReplacementPlan() started.
+􀟈  Test scanOnlyFileCannotBeMarked() started.
+􀟈  Test lateSuggestionCannotUndoClearSelection() started.
+􀟈  Test reopeningHistoryAfterExternalModeRescansSavedFolders() started.
+􀟈  Test restoredExternalConfigurationKeepsItsSelection() started.
+􀟈  Test keeperCanBeUnlockedWithoutAutomaticallySelectingIt() started.
+􀟈  Test changingKeeperInvalidatesReview() started.
+􀟈  Test clearingHistoryRemovesDatabaseButKeepsOriginals() started.
+􀟈  Test failedRemovalAndRemainingDuplicatesStayVisible() started.
+􀟈  Test scannerToAppFlowPreventsSelectingExternalCopies() started.
+􀟈  Test defaultSelectionRespectsSearchAndWholeScanIsExplicit() started.
+􀟈  Test clearingSelectionInvalidatesReviewAndCannotExecuteOldPlan() started.
+􀟈  Test clearWhileReviewIsPendingCannotRestoreOldPlan() started.
+􁁛  Test restoredExternalConfigurationKeepsItsSelection() passed after 0.105 seconds.
+􁁛  Test scanOnlyFileCannotBeMarked() passed after 0.105 seconds.
+􁁛  Test clearingHistoryRemovesDatabaseButKeepsOriginals() passed after 0.112 seconds.
+􁁛  Test defaultSelectionRespectsSearchAndWholeScanIsExplicit() passed after 0.112 seconds.
+􁁛  Test changingKeeperInvalidatesReview() passed after 0.112 seconds.
+􁁛  Test clearingSelectionInvalidatesReviewAndCannotExecuteOldPlan() passed after 0.112 seconds.
+􁁛  Test failedRemovalAndRemainingDuplicatesStayVisible() passed after 0.114 seconds.
+􁁛  Test oldConfirmationCannotExecuteReplacementPlan() passed after 0.114 seconds.
+􁁛  Test keeperCanBeUnlockedWithoutAutomaticallySelectingIt() passed after 0.117 seconds.
+􁁛  Test reopeningHistoryAfterExternalModeRescansSavedFolders() passed after 0.118 seconds.
+􁁛  Test clearWhileReviewIsPendingCannotRestoreOldPlan() passed after 0.132 seconds.
+􁁛  Test lateSuggestionCannotUndoClearSelection() passed after 0.142 seconds.
+􁁛  Test changedResultsCannotBeSuggestedOrManuallyMarkedAgain() passed after 0.145 seconds.
+􁁛  Test scannerToAppFlowPreventsSelectingExternalCopies() passed after 0.157 seconds.
+􁁛  Suite AppModelTests passed after 0.157 seconds.
+􁁛  Test run with 14 tests in 1 suite passed after 0.157 seconds.

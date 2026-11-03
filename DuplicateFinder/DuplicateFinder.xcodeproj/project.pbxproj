@@ -1,0 +1,1028 @@
+// !$*UTF8*$!
+{
+	archiveVersion = "1";
+	classes = {
+	};
+	objectVersion = "56";
+	objects = {
+		E026820D221BEC44B2352D08 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Sources/DuplicateFinderCore/Domain/Files.swift";
+			sourceTree = "<group>";
+		};
+		6E3A56209DCAD24EF069512D = {
+			isa = "PBXBuildFile";
+			fileRef = E026820D221BEC44B2352D08;
+		};
+		8C545EA43EF3E1FA47B7FA5D = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Sources/DuplicateFinderCore/Domain/Removal.swift";
+			sourceTree = "<group>";
+		};
+		EC00F8176E2A4BB158F04790 = {
+			isa = "PBXBuildFile";
+			fileRef = 8C545EA43EF3E1FA47B7FA5D;
+		};
+		413D300D0ACD4CBE284E6CDF = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Sources/DuplicateFinderCore/Domain/RemovalProgress.swift";
+			sourceTree = "<group>";
+		};
+		2BF0594842124F9955219647 = {
+			isa = "PBXBuildFile";
+			fileRef = 413D300D0ACD4CBE284E6CDF;
+		};
+		7DE7302BB904F880395A25B6 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Sources/DuplicateFinderCore/Domain/Scan.swift";
+			sourceTree = "<group>";
+		};
+		19CD6BFCC69D3B8321CD425A = {
+			isa = "PBXBuildFile";
+			fileRef = 7DE7302BB904F880395A25B6;
+		};
+		39CA64499A3BD3C6E0CE6A9C = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Sources/DuplicateFinderCore/Persistence/RemovalJournal.swift";
+			sourceTree = "<group>";
+		};
+		5D5C45C62EDEEBD6F690BC68 = {
+			isa = "PBXBuildFile";
+			fileRef = 39CA64499A3BD3C6E0CE6A9C;
+		};
+		D32FD60C3227E6779F3CEEB2 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Sources/DuplicateFinderCore/Persistence/Repositories.swift";
+			sourceTree = "<group>";
+		};
+		CDAA83DB222485CC0F812774 = {
+			isa = "PBXBuildFile";
+			fileRef = D32FD60C3227E6779F3CEEB2;
+		};
+		2254C3844B50FEBAB1EDDBD4 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Sources/DuplicateFinderCore/Persistence/SQLiteScanIndex.swift";
+			sourceTree = "<group>";
+		};
+		68A19D98F0C3778A7B934713 = {
+			isa = "PBXBuildFile";
+			fileRef = 2254C3844B50FEBAB1EDDBD4;
+		};
+		9DBDA0C267AB67BBF95C9B61 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Sources/DuplicateFinderCore/Persistence/ScanArchiveStore.swift";
+			sourceTree = "<group>";
+		};
+		9AC53B2AAE208452876EB53D = {
+			isa = "PBXBuildFile";
+			fileRef = 9DBDA0C267AB67BBF95C9B61;
+		};
+		B8A1EBFB61B6F7DDB3DD3635 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Sources/DuplicateFinderCore/Services/Contracts.swift";
+			sourceTree = "<group>";
+		};
+		97E830899F0487ADE7079B78 = {
+			isa = "PBXBuildFile";
+			fileRef = B8A1EBFB61B6F7DDB3DD3635;
+		};
+		40F086F44F541F63BD23B206 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Sources/DuplicateFinderCore/Services/LocalEngine.swift";
+			sourceTree = "<group>";
+		};
+		9AB3156F416D4CC92FDC4547 = {
+			isa = "PBXBuildFile";
+			fileRef = 40F086F44F541F63BD23B206;
+		};
+		26468D59FD458B9FDBD9E0F9 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Sources/DuplicateFinderCore/Services/LocalRemovalPolicy.swift";
+			sourceTree = "<group>";
+		};
+		270EFAB2874E36A0FDA639A4 = {
+			isa = "PBXBuildFile";
+			fileRef = 26468D59FD458B9FDBD9E0F9;
+		};
+		13F38E75BF5087BD36C5AE9D = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Sources/DuplicateFinderCore/Services/LocalSelectionRemoval.swift";
+			sourceTree = "<group>";
+		};
+		B337BBFDD3B764931BE8904B = {
+			isa = "PBXBuildFile";
+			fileRef = 13F38E75BF5087BD36C5AE9D;
+		};
+		AE88D2C1981B4E078E00FA49 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Sources/DuplicateFinderCore/Services/UnavailableServices.swift";
+			sourceTree = "<group>";
+		};
+		60EFF93FEA2E00F8925F6CE0 = {
+			isa = "PBXBuildFile";
+			fileRef = AE88D2C1981B4E078E00FA49;
+		};
+		FC8F5A85394B0D5FF7E93AFA = {
+			isa = "PBXGroup";
+			children = (
+				E026820D221BEC44B2352D08,
+				8C545EA43EF3E1FA47B7FA5D,
+				413D300D0ACD4CBE284E6CDF,
+				7DE7302BB904F880395A25B6,
+				39CA64499A3BD3C6E0CE6A9C,
+				D32FD60C3227E6779F3CEEB2,
+				2254C3844B50FEBAB1EDDBD4,
+				9DBDA0C267AB67BBF95C9B61,
+				B8A1EBFB61B6F7DDB3DD3635,
+				40F086F44F541F63BD23B206,
+				26468D59FD458B9FDBD9E0F9,
+				13F38E75BF5087BD36C5AE9D,
+				AE88D2C1981B4E078E00FA49,
+			);
+			name = "Sources/DuplicateFinderCore";
+			sourceTree = "<group>";
+		};
+		BAAA43A2A0BF95B3DDDC3619 = {
+			isa = "PBXSourcesBuildPhase";
+			buildActionMask = "2147483647";
+			files = (
+				6E3A56209DCAD24EF069512D,
+				EC00F8176E2A4BB158F04790,
+				2BF0594842124F9955219647,
+				19CD6BFCC69D3B8321CD425A,
+				5D5C45C62EDEEBD6F690BC68,
+				CDAA83DB222485CC0F812774,
+				68A19D98F0C3778A7B934713,
+				9AC53B2AAE208452876EB53D,
+				97E830899F0487ADE7079B78,
+				9AB3156F416D4CC92FDC4547,
+				270EFAB2874E36A0FDA639A4,
+				B337BBFDD3B764931BE8904B,
+				60EFF93FEA2E00F8925F6CE0,
+			);
+			runOnlyForDeploymentPostprocessing = "0";
+		};
+		D4222A2CE8F97DDF388A5D2B = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Sources/DuplicateFinderApp/Application/AppModel.swift";
+			sourceTree = "<group>";
+		};
+		4CDC190D6C9D78E306570CC3 = {
+			isa = "PBXBuildFile";
+			fileRef = D4222A2CE8F97DDF388A5D2B;
+		};
+		D592CBC3CF6C9679859B1795 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Sources/DuplicateFinderApp/Application/DuplicateFinderApp.swift";
+			sourceTree = "<group>";
+		};
+		71FF332AA54113B4D4FE781E = {
+			isa = "PBXBuildFile";
+			fileRef = D592CBC3CF6C9679859B1795;
+		};
+		E6F8E96EC2473348FC05B630 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Sources/DuplicateFinderApp/Application/Lifecycle.swift";
+			sourceTree = "<group>";
+		};
+		0E30F6FA0AA8DBDC377C35F3 = {
+			isa = "PBXBuildFile";
+			fileRef = E6F8E96EC2473348FC05B630;
+		};
+		9F0574D30A682405BD9BCEC5 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Sources/DuplicateFinderApp/Presentation/ComparisonView.swift";
+			sourceTree = "<group>";
+		};
+		DA6EDF28CC3052CFFA4FA9C1 = {
+			isa = "PBXBuildFile";
+			fileRef = 9F0574D30A682405BD9BCEC5;
+		};
+		3A2EDB0820740407BDE7FF14 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Sources/DuplicateFinderApp/Presentation/HomeView.swift";
+			sourceTree = "<group>";
+		};
+		C789369453D27F158B150AF6 = {
+			isa = "PBXBuildFile";
+			fileRef = 3A2EDB0820740407BDE7FF14;
+		};
+		1EAD6520C9DF2C25FAA2CE71 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Sources/DuplicateFinderApp/Presentation/NativePreview.swift";
+			sourceTree = "<group>";
+		};
+		D35C59E9A024F303B3E9A7BD = {
+			isa = "PBXBuildFile";
+			fileRef = 1EAD6520C9DF2C25FAA2CE71;
+		};
+		0F508E75C2CB9347DA527A1C = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Sources/DuplicateFinderApp/Presentation/OperationHistoryView.swift";
+			sourceTree = "<group>";
+		};
+		270F3CE723A3B2DDC7827522 = {
+			isa = "PBXBuildFile";
+			fileRef = 0F508E75C2CB9347DA527A1C;
+		};
+		75452300A8041D56C82FC921 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Sources/DuplicateFinderApp/Presentation/PreviewInspector.swift";
+			sourceTree = "<group>";
+		};
+		D303807ECBCFE76F61398512 = {
+			isa = "PBXBuildFile";
+			fileRef = 75452300A8041D56C82FC921;
+		};
+		1491271C3EAAAD87AD307448 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Sources/DuplicateFinderApp/Presentation/RemovalReviewView.swift";
+			sourceTree = "<group>";
+		};
+		20681CEE70F8CCDDED6828BF = {
+			isa = "PBXBuildFile";
+			fileRef = 1491271C3EAAAD87AD307448;
+		};
+		4A96F5EE43513108C1CED316 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Sources/DuplicateFinderApp/Presentation/ResultsBrowserView.swift";
+			sourceTree = "<group>";
+		};
+		3216659CDF35698578C767DB = {
+			isa = "PBXBuildFile";
+			fileRef = 4A96F5EE43513108C1CED316;
+		};
+		FC2E1F3B3F7E87C0B30CBE65 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Sources/DuplicateFinderApp/Presentation/ScanViews.swift";
+			sourceTree = "<group>";
+		};
+		84C93E010A80745342B3AFFA = {
+			isa = "PBXBuildFile";
+			fileRef = FC2E1F3B3F7E87C0B30CBE65;
+		};
+		2DB69C53D35D9ABB029C81FA = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Sources/DuplicateFinderApp/Presentation/SettingsView.swift";
+			sourceTree = "<group>";
+		};
+		615D432EB31B38B82BCC55E0 = {
+			isa = "PBXBuildFile";
+			fileRef = 2DB69C53D35D9ABB029C81FA;
+		};
+		DFD3F248C2C17C380FF06905 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Sources/DuplicateFinderApp/Presentation/SharedViews.swift";
+			sourceTree = "<group>";
+		};
+		65574F0467534B293FBD72DB = {
+			isa = "PBXBuildFile";
+			fileRef = DFD3F248C2C17C380FF06905;
+		};
+		CF8D0BD4B75E8C2C174692A5 = {
+			isa = "PBXGroup";
+			children = (
+				D4222A2CE8F97DDF388A5D2B,
+				D592CBC3CF6C9679859B1795,
+				E6F8E96EC2473348FC05B630,
+				9F0574D30A682405BD9BCEC5,
+				3A2EDB0820740407BDE7FF14,
+				1EAD6520C9DF2C25FAA2CE71,
+				0F508E75C2CB9347DA527A1C,
+				75452300A8041D56C82FC921,
+				1491271C3EAAAD87AD307448,
+				4A96F5EE43513108C1CED316,
+				FC2E1F3B3F7E87C0B30CBE65,
+				2DB69C53D35D9ABB029C81FA,
+				DFD3F248C2C17C380FF06905,
+			);
+			name = "Sources/DuplicateFinderApp";
+			sourceTree = "<group>";
+		};
+		D10ECEDA0FB53BA093BEC557 = {
+			isa = "PBXSourcesBuildPhase";
+			buildActionMask = "2147483647";
+			files = (
+				4CDC190D6C9D78E306570CC3,
+				71FF332AA54113B4D4FE781E,
+				0E30F6FA0AA8DBDC377C35F3,
+				DA6EDF28CC3052CFFA4FA9C1,
+				C789369453D27F158B150AF6,
+				D35C59E9A024F303B3E9A7BD,
+				270F3CE723A3B2DDC7827522,
+				D303807ECBCFE76F61398512,
+				20681CEE70F8CCDDED6828BF,
+				3216659CDF35698578C767DB,
+				84C93E010A80745342B3AFFA,
+				615D432EB31B38B82BCC55E0,
+				65574F0467534B293FBD72DB,
+			);
+			runOnlyForDeploymentPostprocessing = "0";
+		};
+		F45C35707258A54C67817E19 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Tests/DuplicateFinderCoreTests/BoundaryTests.swift";
+			sourceTree = "<group>";
+		};
+		F527A64E487CBD45663ACD0A = {
+			isa = "PBXBuildFile";
+			fileRef = F45C35707258A54C67817E19;
+		};
+		696BF65356243E036B6AC3B8 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Tests/DuplicateFinderCoreTests/DomainTests.swift";
+			sourceTree = "<group>";
+		};
+		7F4A66A15153585B4C5DBD5C = {
+			isa = "PBXBuildFile";
+			fileRef = 696BF65356243E036B6AC3B8;
+		};
+		5029E4F4C320310F43D95520 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Tests/DuplicateFinderCoreTests/InterruptionTests.swift";
+			sourceTree = "<group>";
+		};
+		0B1915A3E717E873E991E916 = {
+			isa = "PBXBuildFile";
+			fileRef = 5029E4F4C320310F43D95520;
+		};
+		67DA17FDE7CE6DFC1DCC6E4F = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Tests/DuplicateFinderCoreTests/ReleaseRegressionTests.swift";
+			sourceTree = "<group>";
+		};
+		51C88ECCCF013442DD486326 = {
+			isa = "PBXBuildFile";
+			fileRef = 67DA17FDE7CE6DFC1DCC6E4F;
+		};
+		E85AC1435D99285F8513DC54 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Tests/DuplicateFinderCoreTests/RemovalTests.swift";
+			sourceTree = "<group>";
+		};
+		34839CF946331890F7B1F136 = {
+			isa = "PBXBuildFile";
+			fileRef = E85AC1435D99285F8513DC54;
+		};
+		06DCD36536CF678EE3406471 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Tests/DuplicateFinderCoreTests/SQLiteIndexTests.swift";
+			sourceTree = "<group>";
+		};
+		1807BD4F861A2A9FF7FE4DEB = {
+			isa = "PBXBuildFile";
+			fileRef = 06DCD36536CF678EE3406471;
+		};
+		0D5CCC28A39F95C5F1D06295 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Tests/DuplicateFinderCoreTests/ScaleTests.swift";
+			sourceTree = "<group>";
+		};
+		3A8CA592666D6664DD72E6DF = {
+			isa = "PBXBuildFile";
+			fileRef = 0D5CCC28A39F95C5F1D06295;
+		};
+		C6EAC90CC9D9B9B87A439E25 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Tests/DuplicateFinderCoreTests/ScannerTests.swift";
+			sourceTree = "<group>";
+		};
+		1DEB8B1304A997EEAF350F9C = {
+			isa = "PBXBuildFile";
+			fileRef = C6EAC90CC9D9B9B87A439E25;
+		};
+		046959ED668101ACBA8D6889 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Tests/DuplicateFinderCoreTests/StressTests.swift";
+			sourceTree = "<group>";
+		};
+		EC8694538F26C3440E4B77D8 = {
+			isa = "PBXBuildFile";
+			fileRef = 046959ED668101ACBA8D6889;
+		};
+		14FD9E1242F63683C68E7922 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Tests/DuplicateFinderCoreTests/Version050Tests.swift";
+			sourceTree = "<group>";
+		};
+		825EE975B6BF566B86404715 = {
+			isa = "PBXBuildFile";
+			fileRef = 14FD9E1242F63683C68E7922;
+		};
+		7044B98E5D8782DA37E4768C = {
+			isa = "PBXGroup";
+			children = (
+				F45C35707258A54C67817E19,
+				696BF65356243E036B6AC3B8,
+				5029E4F4C320310F43D95520,
+				67DA17FDE7CE6DFC1DCC6E4F,
+				E85AC1435D99285F8513DC54,
+				06DCD36536CF678EE3406471,
+				0D5CCC28A39F95C5F1D06295,
+				C6EAC90CC9D9B9B87A439E25,
+				046959ED668101ACBA8D6889,
+				14FD9E1242F63683C68E7922,
+			);
+			name = "Tests/DuplicateFinderCoreTests";
+			sourceTree = "<group>";
+		};
+		D47DE04E248AA175FA6CF246 = {
+			isa = "PBXSourcesBuildPhase";
+			buildActionMask = "2147483647";
+			files = (
+				F527A64E487CBD45663ACD0A,
+				7F4A66A15153585B4C5DBD5C,
+				0B1915A3E717E873E991E916,
+				51C88ECCCF013442DD486326,
+				34839CF946331890F7B1F136,
+				1807BD4F861A2A9FF7FE4DEB,
+				3A8CA592666D6664DD72E6DF,
+				1DEB8B1304A997EEAF350F9C,
+				EC8694538F26C3440E4B77D8,
+				825EE975B6BF566B86404715,
+			);
+			runOnlyForDeploymentPostprocessing = "0";
+		};
+		2033F0D5034562E709F7603E = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "sourcecode.swift";
+			path = "Tests/DuplicateFinderAppTests/AppModelTests.swift";
+			sourceTree = "<group>";
+		};
+		73F4B42969A35B5FC0F10078 = {
+			isa = "PBXBuildFile";
+			fileRef = 2033F0D5034562E709F7603E;
+		};
+		069026E3C59D27E18DE41D5D = {
+			isa = "PBXGroup";
+			children = (
+				2033F0D5034562E709F7603E,
+			);
+			name = "Tests/DuplicateFinderAppTests";
+			sourceTree = "<group>";
+		};
+		5BB17C72EE2591B0D5D07534 = {
+			isa = "PBXSourcesBuildPhase";
+			buildActionMask = "2147483647";
+			files = (
+				73F4B42969A35B5FC0F10078,
+			);
+			runOnlyForDeploymentPostprocessing = "0";
+		};
+		DE2483F189FE68F76333644E = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "text.xcconfig";
+			path = "Configuration/Base.xcconfig";
+			sourceTree = "<group>";
+		};
+		82BB6D2F20373DEFA07B13B5 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "text.plist.entitlements";
+			path = "Configuration/DuplicateFinder.entitlements";
+			sourceTree = "<group>";
+		};
+		78C6EEE7E1AEB3FB4BBFD287 = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "text.plist.xml";
+			path = "Configuration/AppInfo.plist";
+			sourceTree = "<group>";
+		};
+		2C78C5A5A1F187DC9B68F4ED = {
+			isa = "PBXFileReference";
+			lastKnownFileType = "image.icns";
+			path = "Resources/AppIcon.icns";
+			sourceTree = "<group>";
+		};
+		797E92F9BC7CD81F430FA27D = {
+			isa = "PBXFileReference";
+			explicitFileType = "wrapper.framework";
+			includeInIndex = "0";
+			path = "DuplicateFinderCore.framework";
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		FEA5E4992DEFAD25BC55576E = {
+			isa = "XCBuildConfiguration";
+			baseConfigurationReference = DE2483F189FE68F76333644E;
+			buildSettings = {
+				PRODUCT_NAME = "DuplicateFinderCore";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.DuplicateFinderCore";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG";
+				ENABLE_TESTABILITY = "YES";
+				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
+				DEFINES_MODULE = "YES";
+				SKIP_INSTALL = "YES";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+			};
+			name = "Debug";
+		};
+		70883354C97A31BC8F83A648 = {
+			isa = "XCBuildConfiguration";
+			baseConfigurationReference = DE2483F189FE68F76333644E;
+			buildSettings = {
+				PRODUCT_NAME = "DuplicateFinderCore";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.DuplicateFinderCore";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				ENABLE_TESTABILITY = "NO";
+				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
+				DEFINES_MODULE = "YES";
+				SKIP_INSTALL = "YES";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+			};
+			name = "Release";
+		};
+		61909332885250548DE1D1F0 = {
+			isa = "XCConfigurationList";
+			buildConfigurations = (
+				FEA5E4992DEFAD25BC55576E,
+				70883354C97A31BC8F83A648,
+			);
+			defaultConfigurationIsVisible = "0";
+			defaultConfigurationName = "Release";
+		};
+		4B635DD2614CC383D321F8B2 = {
+			isa = "PBXFrameworksBuildPhase";
+			buildActionMask = "2147483647";
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = "0";
+		};
+		F11EED822EBD4996DAF631B0 = {
+			isa = "PBXNativeTarget";
+			buildConfigurationList = 61909332885250548DE1D1F0;
+			buildPhases = (
+				BAAA43A2A0BF95B3DDDC3619,
+				4B635DD2614CC383D321F8B2,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DuplicateFinderCore";
+			productName = "DuplicateFinderCore";
+			productReference = 797E92F9BC7CD81F430FA27D;
+			productType = "com.apple.product-type.framework";
+		};
+		B6CDB6E5D160E013280D3C68 = {
+			isa = "PBXFileReference";
+			explicitFileType = "wrapper.application";
+			includeInIndex = "0";
+			path = "DuplicateFinder.app";
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		0FE5D1EF1FA727BADCF217D2 = {
+			isa = "XCBuildConfiguration";
+			baseConfigurationReference = DE2483F189FE68F76333644E;
+			buildSettings = {
+				PRODUCT_NAME = "DuplicateFinder";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.DuplicateFinder.Development";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG";
+				ENABLE_TESTABILITY = "YES";
+				PRODUCT_MODULE_NAME = "DuplicateFinderApp";
+				CODE_SIGN_ENTITLEMENTS = "Configuration/DuplicateFinder.entitlements";
+				INFOPLIST_KEY_CFBundleDisplayName = "Duplicate Finder";
+				INFOPLIST_FILE = "Configuration/AppInfo.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSPrincipalClass = "NSApplication";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+			};
+			name = "Debug";
+		};
+		196372C5242E3118EE8DE229 = {
+			isa = "XCBuildConfiguration";
+			baseConfigurationReference = DE2483F189FE68F76333644E;
+			buildSettings = {
+				PRODUCT_NAME = "DuplicateFinder";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.DuplicateFinder.Development";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				ENABLE_TESTABILITY = "NO";
+				PRODUCT_MODULE_NAME = "DuplicateFinderApp";
+				CODE_SIGN_ENTITLEMENTS = "Configuration/DuplicateFinder.entitlements";
+				INFOPLIST_KEY_CFBundleDisplayName = "Duplicate Finder";
+				INFOPLIST_FILE = "Configuration/AppInfo.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSPrincipalClass = "NSApplication";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+			};
+			name = "Release";
+		};
+		9EA62D25DFD1EFBA21F6DE7B = {
+			isa = "XCConfigurationList";
+			buildConfigurations = (
+				0FE5D1EF1FA727BADCF217D2,
+				196372C5242E3118EE8DE229,
+			);
+			defaultConfigurationIsVisible = "0";
+			defaultConfigurationName = "Release";
+		};
+		A80A251DFA0EDA91EE9321F5 = {
+			isa = "PBXBuildFile";
+			fileRef = 797E92F9BC7CD81F430FA27D;
+		};
+		D36D33020B6BB89396BD1B34 = {
+			isa = "PBXContainerItemProxy";
+			containerPortal = 98F54143AB4E86B28C3AFEE0;
+			proxyType = "1";
+			remoteGlobalIDString = F11EED822EBD4996DAF631B0;
+			remoteInfo = "DuplicateFinderCore";
+		};
+		D2F9C6ACC3CFD758A2AF1D96 = {
+			isa = "PBXTargetDependency";
+			target = F11EED822EBD4996DAF631B0;
+			targetProxy = D36D33020B6BB89396BD1B34;
+		};
+		C19A4328C9961E8F8A7CF4CD = {
+			isa = "PBXFrameworksBuildPhase";
+			buildActionMask = "2147483647";
+			files = (
+				A80A251DFA0EDA91EE9321F5,
+			);
+			runOnlyForDeploymentPostprocessing = "0";
+		};
+		1DDC606E1CEC2284028FC7A6 = {
+			isa = "PBXBuildFile";
+			fileRef = 2C78C5A5A1F187DC9B68F4ED;
+		};
+		C84B5C31679C986BFD935BC6 = {
+			isa = "PBXResourcesBuildPhase";
+			buildActionMask = "2147483647";
+			files = (
+				1DDC606E1CEC2284028FC7A6,
+			);
+			runOnlyForDeploymentPostprocessing = "0";
+		};
+		A3DECA0F874FC4A6B7F22349 = {
+			isa = "PBXBuildFile";
+			fileRef = 797E92F9BC7CD81F430FA27D;
+			settings = {
+				ATTRIBUTES = (
+					"CodeSignOnCopy",
+					"RemoveHeadersOnCopy",
+				);
+			};
+		};
+		7E4569269DA434B9FC8376AD = {
+			isa = "PBXCopyFilesBuildPhase";
+			buildActionMask = "2147483647";
+			dstPath = "";
+			dstSubfolderSpec = "10";
+			files = (
+				A3DECA0F874FC4A6B7F22349,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = "0";
+		};
+		29C7B681C8D62CBAC94D51C0 = {
+			isa = "PBXNativeTarget";
+			buildConfigurationList = 9EA62D25DFD1EFBA21F6DE7B;
+			buildPhases = (
+				D10ECEDA0FB53BA093BEC557,
+				C19A4328C9961E8F8A7CF4CD,
+				C84B5C31679C986BFD935BC6,
+				7E4569269DA434B9FC8376AD,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2F9C6ACC3CFD758A2AF1D96,
+			);
+			name = "DuplicateFinder";
+			productName = "DuplicateFinder";
+			productReference = B6CDB6E5D160E013280D3C68;
+			productType = "com.apple.product-type.application";
+		};
+		A8D8270AA6DB8732282C9541 = {
+			isa = "PBXFileReference";
+			explicitFileType = "wrapper.cfbundle";
+			includeInIndex = "0";
+			path = "DuplicateFinderCoreTests.xctest";
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		46DD6D9C5D6D46F4D9872AEF = {
+			isa = "XCBuildConfiguration";
+			baseConfigurationReference = DE2483F189FE68F76333644E;
+			buildSettings = {
+				PRODUCT_NAME = "DuplicateFinderCoreTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.DuplicateFinderCoreTests";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG";
+				ENABLE_TESTABILITY = "YES";
+				GENERATE_INFOPLIST_FILE = "YES";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@loader_path/../Frameworks",
+					"@loader_path/../../..",
+				);
+			};
+			name = "Debug";
+		};
+		CC8EB3EA984701DAA5B76451 = {
+			isa = "XCBuildConfiguration";
+			baseConfigurationReference = DE2483F189FE68F76333644E;
+			buildSettings = {
+				PRODUCT_NAME = "DuplicateFinderCoreTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.DuplicateFinderCoreTests";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				ENABLE_TESTABILITY = "NO";
+				GENERATE_INFOPLIST_FILE = "YES";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@loader_path/../Frameworks",
+					"@loader_path/../../..",
+				);
+			};
+			name = "Release";
+		};
+		F3AD4C3BA58462581CAA087A = {
+			isa = "XCConfigurationList";
+			buildConfigurations = (
+				46DD6D9C5D6D46F4D9872AEF,
+				CC8EB3EA984701DAA5B76451,
+			);
+			defaultConfigurationIsVisible = "0";
+			defaultConfigurationName = "Release";
+		};
+		237E33D6A16BEB1E5CAB4D09 = {
+			isa = "PBXBuildFile";
+			fileRef = 797E92F9BC7CD81F430FA27D;
+		};
+		78AF9CBC92B2B17C537164D6 = {
+			isa = "PBXContainerItemProxy";
+			containerPortal = 98F54143AB4E86B28C3AFEE0;
+			proxyType = "1";
+			remoteGlobalIDString = F11EED822EBD4996DAF631B0;
+			remoteInfo = "DuplicateFinderCore";
+		};
+		121F178636F633006383348C = {
+			isa = "PBXTargetDependency";
+			target = F11EED822EBD4996DAF631B0;
+			targetProxy = 78AF9CBC92B2B17C537164D6;
+		};
+		48FB5AF282D47CFB19F12683 = {
+			isa = "PBXFrameworksBuildPhase";
+			buildActionMask = "2147483647";
+			files = (
+				237E33D6A16BEB1E5CAB4D09,
+			);
+			runOnlyForDeploymentPostprocessing = "0";
+		};
+		EA5815D3D83100CE3F564964 = {
+			isa = "PBXNativeTarget";
+			buildConfigurationList = F3AD4C3BA58462581CAA087A;
+			buildPhases = (
+				D47DE04E248AA175FA6CF246,
+				48FB5AF282D47CFB19F12683,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				121F178636F633006383348C,
+			);
+			name = "DuplicateFinderCoreTests";
+			productName = "DuplicateFinderCoreTests";
+			productReference = A8D8270AA6DB8732282C9541;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEE76A69B3DCCF0F09A422FB = {
+			isa = "PBXFileReference";
+			explicitFileType = "wrapper.cfbundle";
+			includeInIndex = "0";
+			path = "DuplicateFinderAppTests.xctest";
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		F26BF5AE57551E552B4AB93C = {
+			isa = "XCBuildConfiguration";
+			baseConfigurationReference = DE2483F189FE68F76333644E;
+			buildSettings = {
+				PRODUCT_NAME = "DuplicateFinderAppTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.DuplicateFinderAppTests";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG";
+				ENABLE_TESTABILITY = "YES";
+				GENERATE_INFOPLIST_FILE = "YES";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@loader_path/../Frameworks",
+					"@loader_path/../../..",
+				);
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DuplicateFinder.app/Contents/MacOS/DuplicateFinder";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+			};
+			name = "Debug";
+		};
+		664903ED526A5DE3635C0BE9 = {
+			isa = "XCBuildConfiguration";
+			baseConfigurationReference = DE2483F189FE68F76333644E;
+			buildSettings = {
+				PRODUCT_NAME = "DuplicateFinderAppTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.DuplicateFinderAppTests";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				ENABLE_TESTABILITY = "NO";
+				GENERATE_INFOPLIST_FILE = "YES";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@loader_path/../Frameworks",
+					"@loader_path/../../..",
+				);
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DuplicateFinder.app/Contents/MacOS/DuplicateFinder";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+			};
+			name = "Release";
+		};
+		C9D98B43FDBA75F3A88857C4 = {
+			isa = "XCConfigurationList";
+			buildConfigurations = (
+				F26BF5AE57551E552B4AB93C,
+				664903ED526A5DE3635C0BE9,
+			);
+			defaultConfigurationIsVisible = "0";
+			defaultConfigurationName = "Release";
+		};
+		50AF3EA43DE6AD034F2D9B7A = {
+			isa = "PBXBuildFile";
+			fileRef = 797E92F9BC7CD81F430FA27D;
+		};
+		4FDACF36B177A97771659094 = {
+			isa = "PBXContainerItemProxy";
+			containerPortal = 98F54143AB4E86B28C3AFEE0;
+			proxyType = "1";
+			remoteGlobalIDString = F11EED822EBD4996DAF631B0;
+			remoteInfo = "DuplicateFinderCore";
+		};
+		3CFBDC4F0FFC5926C0B22B3C = {
+			isa = "PBXTargetDependency";
+			target = F11EED822EBD4996DAF631B0;
+			targetProxy = 4FDACF36B177A97771659094;
+		};
+		AD43EA2AC9B4280DF2F1A29B = {
+			isa = "PBXContainerItemProxy";
+			containerPortal = 98F54143AB4E86B28C3AFEE0;
+			proxyType = "1";
+			remoteGlobalIDString = 29C7B681C8D62CBAC94D51C0;
+			remoteInfo = "DuplicateFinder";
+		};
+		9C05C405D4AEB643D9D9B7BC = {
+			isa = "PBXTargetDependency";
+			target = 29C7B681C8D62CBAC94D51C0;
+			targetProxy = AD43EA2AC9B4280DF2F1A29B;
+		};
+		D41E572A43DE7098326232A1 = {
+			isa = "PBXFrameworksBuildPhase";
+			buildActionMask = "2147483647";
+			files = (
+				50AF3EA43DE6AD034F2D9B7A,
+			);
+			runOnlyForDeploymentPostprocessing = "0";
+		};
+		673B0D023BD1A52483CEA5A8 = {
+			isa = "PBXNativeTarget";
+			buildConfigurationList = C9D98B43FDBA75F3A88857C4;
+			buildPhases = (
+				5BB17C72EE2591B0D5D07534,
+				D41E572A43DE7098326232A1,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CFBDC4F0FFC5926C0B22B3C,
+				9C05C405D4AEB643D9D9B7BC,
+			);
+			name = "DuplicateFinderAppTests";
+			productName = "DuplicateFinderAppTests";
+			productReference = FEE76A69B3DCCF0F09A422FB;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		262E02E3C63E2FBADCBCB6A2 = {
+			isa = "XCBuildConfiguration";
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = "14.0";
+				SDKROOT = "macosx";
+			};
+			name = "Debug";
+		};
+		86E0D76135EE80816AB07AC0 = {
+			isa = "XCBuildConfiguration";
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = "14.0";
+				SDKROOT = "macosx";
+			};
+			name = "Release";
+		};
+		247BF104A9AD002C539DA531 = {
+			isa = "XCConfigurationList";
+			buildConfigurations = (
+				262E02E3C63E2FBADCBCB6A2,
+				86E0D76135EE80816AB07AC0,
+			);
+			defaultConfigurationIsVisible = "0";
+			defaultConfigurationName = "Release";
+		};
+		FBDC4F23F93125BBEEAE800C = {
+			isa = "PBXGroup";
+			children = (
+				797E92F9BC7CD81F430FA27D,
+				B6CDB6E5D160E013280D3C68,
+				A8D8270AA6DB8732282C9541,
+				FEE76A69B3DCCF0F09A422FB,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		B28B7AF69320201D1CF206EB = {
+			isa = "PBXGroup";
+			children = (
+				FC8F5A85394B0D5FF7E93AFA,
+				CF8D0BD4B75E8C2C174692A5,
+				7044B98E5D8782DA37E4768C,
+				069026E3C59D27E18DE41D5D,
+				DE2483F189FE68F76333644E,
+				82BB6D2F20373DEFA07B13B5,
+				78C6EEE7E1AEB3FB4BBFD287,
+				2C78C5A5A1F187DC9B68F4ED,
+				FBDC4F23F93125BBEEAE800C,
+			);
+			sourceTree = "<group>";
+		};
+		98F54143AB4E86B28C3AFEE0 = {
+			isa = "PBXProject";
+			attributes = {
+				BuildIndependentTargetsInParallel = "YES";
+				LastUpgradeCheck = "1600";
+			};
+			buildConfigurationList = 247BF104A9AD002C539DA531;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "en";
+			hasScannedForEncodings = "0";
+			knownRegions = (
+				"en",
+				"Base",
+			);
+			mainGroup = B28B7AF69320201D1CF206EB;
+			productRefGroup = FBDC4F23F93125BBEEAE800C;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29C7B681C8D62CBAC94D51C0,
+				F11EED822EBD4996DAF631B0,
+				EA5815D3D83100CE3F564964,
+				673B0D023BD1A52483CEA5A8,
+			);
+		};
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0;
+}

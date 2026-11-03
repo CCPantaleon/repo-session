@@ -1,0 +1,9 @@
+# App icon
+
+Created with the built-in image-generation tool for Duplicate Finder 0.5.0, build 6. Master artwork: Resources/AppIcon.png (1254 x 1254, RGBA). Native packaged icon: Resources/AppIcon.icns. The image is included in the app bundle; it does not need to be downloaded at runtime.
+
+Run `zsh Scripts/build_icon.sh` to regenerate the standard and Retina icon sizes (16 through 1024 pixels). Run `python3 Scripts/generate_project.py` after changing project resource registration, then build normally. The Xcode app resources phase embeds AppIcon.icns and CFBundleIconFile registers AppIcon.
+
+## Generation prompt
+
+Use case: logo-brand. Create ONE finished production macOS application icon for Duplicate Finder. Square 1024 by 1024 composition. A rounded square app tile inset about 6% from the canvas edges, transparent outside the tile. Rich deep blue in upper left transitioning to indigo at lower right, restrained soft dimensional bevel and subtle light. Centered on this tile: exactly TWO overlapping upright white file cards, offset diagonally, with gently rounded corners and small folded upper-right corners. Rear card pale ice blue and slightly offset upper-left; foreground card ivory white offset lower-right. Over the lower-right of the foreground card, a bold magnifying glass with a deep navy rim, subtle ice-blue transparent lens and short diagonal handle extending lower right, within the tile. File cards and magnifier visually integrated into one clear, balanced silhouette with ample breathing room. Contemporary elegant macOS utility icon, precise geometry, clean premium materials, soft restrained depth, crisp edges, readable at 32px. Frontal orthographic view, no perspective rotation. NO text, letters, logos, watermarks, ticks, trash bins, stars or sparkles. No mockup, surrounding desktop, extra variants or contact sheet. Only the icon with genuinely transparent outer corners.

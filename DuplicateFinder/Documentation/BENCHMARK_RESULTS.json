@@ -1,0 +1,18 @@
+{
+  "configuration" : "Release",
+  "duplicateGroups" : 220,
+  "duplicateMembers" : 10200,
+  "enumerationSeconds" : 17.535949110984802,
+  "files" : 12200,
+  "groundTruthMatched" : true,
+  "issues" : [
+
+  ],
+  "limitations" : "Generated media on this Mac; filesystem cache and APFS cloning may affect throughput. Not a cold-disk or real-library benchmark.",
+  "logicalBytes" : 18731789642,
+  "mode" : "read-only",
+  "peakRSSBytes" : 239206400,
+  "redundantLogicalBytes" : 15561980604,
+  "seconds" : 53.117824077606201,
+  "uniqueFiles" : 2000
+}
